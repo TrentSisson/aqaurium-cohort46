@@ -2,7 +2,7 @@ export const useLocation = () =>{
     return locationCollection.slice()
 }
 
-locationCollection = [
+const locationCollection = [
     {
         city: "Cairns",
         country: "Australia",
