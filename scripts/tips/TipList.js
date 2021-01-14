@@ -22,7 +22,7 @@ export const TipList = () => {
 
     // Add a section, and all of the fish to the DOM
     contentElement.innerHTML += `
-        <article class="fishList">
+        <article class="tipList">
             ${tipsHTMLRepresentations}
         </article>
     `
